@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="meta_title">Ray'sPub | Premium Signage Across Algeria</title>
+
+    <!-- Google Fonts (Latin + Arabic) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome 6 (Free) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header" id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fas fa-sign-hanging"></i>
+                Ray's<span>Pub</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#services" data-i18n="nav_services">Services</a></li>
+                <li><a href="#portfolio" data-i18n="nav_portfolio">Portfolio</a></li>
+                <li><a href="#about" data-i18n="nav_about">About</a></li>
+                <li><a href="#testimonials" data-i18n="nav_testimonials">Testimonials</a></li>
+                <li><a href="#contact" class="nav-cta" data-i18n="nav_contact">Contact</a></li>
+                <li class="lang-switcher" aria-label="Language switcher">
+                    <button type="button" class="lang-btn" data-lang="en">EN</button>
+                    <button type="button" class="lang-btn" data-lang="fr">FR</button>
+                    <button type="button" class="lang-btn" data-lang="ar">AR</button>
+                </li>
+            </ul>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile overlay -->
+    <div class="overlay-bg" id="overlayBg"></div>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 data-i18n="hero_title">
+                    Crafting <br />
+                    <span class="highlight">Signs</span> That <br />
+                    Speak Volumes
+                </h1>
+                <p data-i18n="hero_desc">
+                    From pharmacy and grocery store signs to cosmetic brand
+                    displays — we design &amp; manufacture premium signage
+                    across Algeria.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-pen-ruler"></i> <span data-i18n="hero_btn_quote">Get a Quote</span>
+                    </a>
+                    <a href="#portfolio" class="btn btn-outline">
+                        <i class="fas fa-images"></i> <span data-i18n="hero_btn_work">View Our Work</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>150+</h3>
+                        <p data-i18n="stat_projects">Projects Delivered</p>
+                    </div>
+                    <div class="stat">
+                        <h3>98%</h3>
+                        <p data-i18n="stat_satisfaction">Client Satisfaction</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p data-i18n="stat_years">Years of Excellence</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="mockup-grid">
+                    <div class="mockup-item">
+                        <i class="fas fa-prescription-bottle"></i>
+                        <span data-i18n="mockup_pharmacy">Pharmacy</span>
+                    </div>
+                    <div class="mockup-item">
+                        <i class="fas fa-store"></i>
+                        <span data-i18n="mockup_alimentation">Alimentation</span>
+                    </div>
+                    <div class="mockup-item">
+                        <i class="fas fa-spa"></i>
+                        <span data-i18n="mockup_cosmetics">Cosmetics</span>
+                    </div>
+                    <div class="mockup-item">
+                        <i class="fas fa-building"></i>
+                        <span data-i18n="mockup_storefront">Storefront</span>
+                    </div>
+                </div>
+                <div class="floating-badge">
+                    <i class="fas fa-star"></i>
+                    <span data-i18n="hero_badge">Trusted across Algeria</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="label" data-i18n="services_label">What We Do</span>
+                <h2 data-i18n="services_title">Premium Signage <span>Solutions</span></h2>
+                <p data-i18n="services_desc">
+                    Tailored designs for every business and brand — from concept to
+                    your building, we bring your identity to life.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="icon"><i class="fas fa-prescription-bottle"></i></div>
+                    <h3 data-i18n="service1_title">Pharmacy Signs</h3>
+                    <p data-i18n="service1_desc">
+                        Elegant, professional pharmacy signage with clear
+                        visibility and compliance with Algerian health standards.
+                    </p>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="icon"><i class="fas fa-utensils"></i></div>
+                    <h3 data-i18n="service2_title">Alimentation / Grocery</h3>
+                    <p data-i18n="service2_desc">
+                        Eye-catching food store signs that attract customers and
+                        reflect the freshness and quality of your products.
+                    </p>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3 data-i18n="service3_title">Cosmetics &amp; Beauty</h3>
+                    <p data-i18n="service3_desc">
+                        Modern, sleek signage for cosmetic brands — designed to
+                        convey elegance, trust, and premium quality.
+                    </p>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="icon"><i class="fas fa-store-alt"></i></div>
+                    <h3 data-i18n="service4_title">Retail Storefronts</h3>
+                    <p data-i18n="service4_desc">
+                        Complete storefront branding including illuminated
+                        signs, window graphics, and dimensional letters.
+                    </p>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3 data-i18n="service5_title">Illuminated Signs</h3>
+                    <p data-i18n="service5_desc">
+                        LED-lit signs that shine day and night, giving your
+                        business 24/7 visibility and a modern edge.
+                    </p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="icon"><i class="fa-solid fa-mosque"></i></div>
+                    <h3 data-i18n="service6_title">Mosque Signs</h3>
+                    <p data-i18n="service6_desc">
+                        Clear directional and identification signs for mosques,
+                        helping worshippers find their way with dignity and ease.
+                    </p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <h3 data-i18n="service7_title">Flexy &amp; Taxiphone</h3>
+                    <p data-i18n="service7_desc">
+                        Bold, recognizable signs for taxiphone and flexy shops
+                        that make your business easy to spot from the street.
+                    </p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="icon"><i class="fas fa-pencil-ruler"></i></div>
+                    <h3 data-i18n="service8_title">Custom Design</h3>
+                    <p data-i18n="service8_desc">
+                        Bespoke design services — we work with you to create a
+                        sign that perfectly matches your brand identity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PORTFOLIO ===== -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="label" data-i18n="portfolio_label">Our Work</span>
+                <h2 data-i18n="portfolio_title">Recent <span>Projects</span></h2>
+                <p data-i18n="portfolio_desc">
+                    A selection of signs we've delivered for businesses across
+                    Algeria.
+                </p>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item reveal">
+                    <span class="emoji-big"><img src="IMG_5025.png"/></span>
+                    <div class="overlay">
+                        <h4><a href="#services">Pharma Plus</a></h4>
+                        <p><span data-i18n="port1_cat">Pharmacy</span> · Algiers</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item reveal">
+                    <span class="emoji-big">🥖</span>
+                    <div class="overlay">
+                        <h4><a href="#services">Le Pain Quotidien</a></h4>
+                        <p><span data-i18n="port2_cat">Alimentation</span> · Oran</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item reveal">
+                    <span class="emoji-big">💄</span>
+                    <div class="overlay">
+                        <h4><a href="#services">Glam Beauty</a></h4>
+                        <p><span data-i18n="port3_cat">Cosmetics</span> · Constantine</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item reveal">
+                    <span class="emoji-big">🛍️</span>
+                    <div class="overlay">
+                        <h4><a href="#services">City Mart</a></h4>
+                        <p><span data-i18n="port4_cat">Retail</span> · Algiers</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item reveal">
+                    <span class="emoji-big"><img src="IMG_5019.JPG"/></span>
+                    <div class="overlay">
+                        <h4><a href="#services">Santé Plus</a></h4>
+                        <p><span data-i18n="port1_cat">Pharmacy</span> · Oran</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item reveal">
+                    <span class="emoji-big">🧴</span>
+                    <div class="overlay">
+                        <h4><a href="#services">Pure Essence</a></h4>
+                        <p><span data-i18n="port3_cat">Cosmetics</span> · Algiers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-image reveal">
+                <span>🏷️</span>
+                <div class="badge-float">
+                    <i class="fas fa-medal"></i> <span data-i18n="about_badge">5+ Years of Excellence</span>
+                </div>
+            </div>
+
+            <div class="about-content reveal">
+                <span class="label" data-i18n="about_label">About Us</span>
+                <h2 data-i18n="about_title">Bringing Your <span>Shop</span> to Light</h2>
+                <p data-i18n="about_p1">
+                    At Ray'sPub, we believe every business deserves a sign
+                    that tells its story. Based in Algeria, we combine modern
+                    design with premium craftsmanship to deliver signage that
+                    stands out.
+                </p>
+                <p data-i18n="about_p2">
+                    Whether you run a pharmacy, a grocery store, or a cosmetic
+                    brand, we work closely with you from concept to installation —
+                    ensuring every detail is perfect.
+                </p>
+
+                <ul class="about-features">
+                    <li><i class="fas fa-check-circle"></i> <span data-i18n="about_feat1">Premium Materials</span></li>
+                    <li><i class="fas fa-check-circle"></i> <span data-i18n="about_feat2">Modern Designs</span></li>
+                    <li><i class="fas fa-check-circle"></i> <span data-i18n="about_feat3">Fast Turnaround</span></li>
+                    <li><i class="fas fa-check-circle"></i> <span data-i18n="about_feat4">Nationwide Delivery</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="label" data-i18n="testimonials_label">Testimonials</span>
+                <h2 data-i18n="testimonials_title">What Our <span>Clients</span> Say</h2>
+                <p data-i18n="testimonials_desc">
+                    Real feedback from business owners across Algeria who
+                    trusted us with their signage.
+                </p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <blockquote data-i18n="testi1_quote">
+                        "Ray'sPub created a stunning pharmacy sign for us.
+                        The quality is exceptional and we've had so many
+                        compliments. Highly recommended!"
+                    </blockquote>
+                    <div class="author">
+                        <div class="avatar">SB</div>
+                        <div>
+                            <div class="name">Samir Benali</div>
+                            <div class="role" data-i18n="testi1_role">Pharmacie Benali, Algiers</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card reveal">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <blockquote data-i18n="testi2_quote">
+                        "Our grocery store sign is a game changer. It's
+                        modern, bright, and attracts so many customers. The
+                        team was professional from start to finish."
+                    </blockquote>
+                    <div class="author">
+                        <div class="avatar">FA</div>
+                        <div>
+                            <div class="name">Fatima Ait</div>
+                            <div class="role" data-i18n="testi2_role">Marché El Djazair, Oran</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card reveal">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <blockquote data-i18n="testi3_quote">
+                        "They designed a beautiful sign for our cosmetics
+                        boutique. It perfectly matches our brand — elegant,
+                        modern, and high-end. We love it!"
+                    </blockquote>
+                    <div class="author">
+                        <div class="avatar">LK</div>
+                        <div>
+                            <div class="name">Leila Khelil</div>
+                            <div class="role" data-i18n="testi3_role">Glam Beauty, Constantine</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta">
+        <div class="container">
+            <h2 data-i18n="cta_title">Ready to Make a <span>Statement</span>?</h2>
+            <p data-i18n="cta_desc">
+                Let's create a sign that truly represents your business.
+                Get in touch today for a free consultation and quote.
+            </p>
+            <div class="btn-group">
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> <span data-i18n="cta_btn1">Start Your Project</span>
+                </a>
+                <a href="#portfolio" class="btn btn-outline">
+                    <i class="fas fa-images"></i> <span data-i18n="cta_btn2">See More Work</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-info reveal">
+                <span class="label" data-i18n="contact_label">Get in Touch</span>
+                <h2 data-i18n="contact_title">Let's Bring Your <span>Vision</span> to Life</h2>
+                <p data-i18n="contact_desc">
+                    Have a project in mind? Reach out to us — we'll get back to
+                    you within 24 hours.
+                </p>
+
+                <div class="contact-details">
+                    <div class="detail">
+                        <i class="fas fa-phone"></i>
+                        <div class="text">
+                            <p>+213 561 66 08 60</p>
+                            <p>+213 662 04 87 93</p>
+                            <small data-i18n="contact_hours">Mon–Sat, 8:00 – 18:00</small>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <i class="fas fa-envelope"></i>
+                        <div class="text">
+                            assassi.bachir1@gmail.com
+                            <small data-i18n="contact_reply">We reply within 24h</small>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <a href="https://maps.app.goo.gl/nVWeDhNKT5TNb2Dh6" target="_blank" rel="noopener"> <i class="fas fa-map-marker-alt"></i> </a>
+                         <div class="text">
+                            <span data-i18n="contact_city">Algiers, Algeria</span>
+                            <small data-i18n="contact_delivery">Nationwide delivery &amp; installation</small>
+                         </div>
+                    </div>
+                    <div class="detail">
+                        <i class="fab fa-whatsapp"></i>
+                        <div class="text">
+                            <a href="https://wa.me/213561660860" target="_blank" rel="noopener" data-i18n="contact_whatsapp">Chat with us on WhatsApp</a>
+                            <small data-i18n="contact_whatsapp_note">Fastest way to reach us</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form reveal" id="contactForm">
+                <div class="form-group">
+                    <label for="name" data-i18n="form_name">Full Name</label>
+                    <input type="text" id="name" data-i18n-placeholder="form_name_ph" placeholder="Your name" required />
+                </div>
+                <div class="form-group">
+                    <label for="email" data-i18n="form_email">Email Address</label>
+                    <input type="email" id="email" placeholder="you@example.com" required />
+                </div>
+                <div class="form-group">
+                    <label for="phone" data-i18n="form_phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="+213 5 00 00 00 00" />
+                </div>
+                <div class="form-group">
+                    <label for="service" data-i18n="form_service">Service Needed</label>
+                    <select id="service">
+                        <option value="" data-i18n="form_service_ph">Select a service…</option>
+                        <option value="pharmacy" data-i18n="service1_title">Pharmacy Sign</option>
+                        <option value="alimentation" data-i18n="service2_title">Alimentation / Grocery</option>
+                        <option value="cosmetics" data-i18n="service3_title">Cosmetics Sign</option>
+                        <option value="retail" data-i18n="service4_title">Retail Storefront</option>
+                        <option value="illuminated" data-i18n="service5_title">Illuminated Sign</option>
+                        <option value="mosque" data-i18n="service6_title">Mosque Sign</option>
+                        <option value="flexy" data-i18n="service7_title">Flexy / Taxiphone</option>
+                        <option value="custom" data-i18n="service8_title">Custom Design</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message" data-i18n="form_message">Message</label>
+                    <textarea id="message" data-i18n-placeholder="form_message_ph" placeholder="Tell us about your project…" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> <span data-i18n="form_submit">Send Message</span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fas fa-sign-hanging"></i>
+                Ray's<span>Pub</span>
+            </a>
+
+            <div class="copy" data-i18n="footer_copy">
+                &copy; 2026 Ray'sPub Algeria. All rights reserved.
+            </div>
+
+            <div class="socials">
+                <a href="https://www.facebook.com/bachir.assassi.718/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/bachir_yeagerest/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="https://wa.me/213561660860" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="i18n.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
